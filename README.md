@@ -24,7 +24,7 @@ npm run preview   # 浏览构建产物，默认 4173
 ## 内容结构
 
 - `docs/`：17 个内容页面（含首页）；六个栏目按目录组织。
-- `docs/public/images/`：9 张旧站示意图的本地副本。
+- `docs/public/images/`：5 张可重新生成的 SVG 教学示意图，以及保留的 2 张 POA 原图和 2 张基因组比对 PNG。
 - `docs/.vitepress/`：主题、自动导航、搜索及部署前缀配置。
 - `CONTRIBUTING.md`：贡献指南，仅保存在仓库，不生成网站页面。
 - `scripts/`：构建、校验、预览、发布和质量检查入口。
@@ -52,6 +52,8 @@ npm run preview   # 浏览构建产物，默认 4173
 `npm run qa` 对已运行的 `npm run preview` 执行浏览器检查；需要先安装测试浏览器 `npx playwright install chromium`。普通文档贡献者不需要安装测试浏览器。可用 `QA_URL` 指定子路径预览地址，用 `QA_CHROME` 指定已有 Chromium 可执行文件。
 
 `node scripts/audit-external.mjs` 仅检查文档外链可访问性，不下载基因组数据；结果保存在 `migration/external-links.json`。`collect-assets.mjs` 是一次性迁移辅助工具，日常写作不运行它。
+
+双序列与多序列配图的示例数据和样式集中在 `scripts/generate-figures.mjs`，修改后运行 `npm run figures`，同时更新相邻正文和图注。`npm run check` 和构建会检查 SVG 是否与生成器一致；`npm test` 独立核对教学算例。预览启动后可运行 `node scripts/figure-qa.mjs` 检查 5 张 SVG 和 2 张 POA 原图的桌面、手机和明暗主题显示（同样支持 `QA_URL`、`QA_CHROME`）。来源与旧图去向见 [配图修订记录](migration/FIGURES-REVISION.md)。
 
 ## 依赖安全约定
 

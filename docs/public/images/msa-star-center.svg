@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="406" viewBox="0 0 560 406" role="img" aria-labelledby="title desc">
+<title id="title">按两两比对得分选择中心序列</title>
+<desc id="desc">S1=ACGT，S2=AGT，S3=ACGTT。匹配加2、错配减1、空位减2。两两得分4、6、2，总分10、6、8，选择S1。</desc>
+<style>text{font-family:"Segoe UI","Microsoft YaHei","PingFang SC",Arial,sans-serif}.mono{font-family:Consolas,"DejaVu Sans Mono",monospace}</style>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#58666e" stroke-width="1.2"/></marker></defs>
+<rect x="0" y="0" width="560" height="406" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="40" y="42" font-size="24" fill="#087f8c" font-weight="600" text-anchor="start" dominant-baseline="middle" class="mono">S1</text>
+<text x="148" y="42" font-size="28" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">ACGT</text>
+<text x="40" y="81" font-size="24" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S2</text>
+<text x="148" y="81" font-size="28" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">AGT</text>
+<text x="40" y="120" font-size="24" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S3</text>
+<text x="148" y="120" font-size="28" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">ACGTT</text>
+<text x="166" y="185" font-size="24" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle">S1</text>
+<text x="258" y="185" font-size="24" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle">S2</text>
+<text x="350" y="185" font-size="24" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle">S3</text>
+<text x="466" y="185" font-size="24" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle">总分</text>
+<text x="320" y="42" font-size="22" fill="#087f8c" font-weight="400" text-anchor="start" dominant-baseline="middle">中心序列</text>
+<path d="M 32 209 L 528 209" fill="none" stroke="#cdd7db" stroke-width="1.8"/>
+<rect x="32" y="219" width="496" height="50" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="54" y="244" font-size="24" fill="#087f8c" font-weight="600" text-anchor="start" dominant-baseline="middle" class="mono">S1</text>
+<text x="166" y="244" font-size="27" fill="#087f8c" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">—</text>
+<text x="258" y="244" font-size="27" fill="#087f8c" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">4</text>
+<text x="350" y="244" font-size="27" fill="#087f8c" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">6</text>
+<text x="466" y="244" font-size="27" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">10</text>
+<text x="54" y="298" font-size="24" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S2</text>
+<text x="166" y="298" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">4</text>
+<text x="258" y="298" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">—</text>
+<text x="350" y="298" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">2</text>
+<text x="466" y="298" font-size="27" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">6</text>
+<text x="54" y="352" font-size="24" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S3</text>
+<text x="166" y="352" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">6</text>
+<text x="258" y="352" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">2</text>
+<text x="350" y="352" font-size="27" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">—</text>
+<text x="466" y="352" font-size="27" fill="#27343b" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">8</text>
+<path d="M 408 169 L 408 378" fill="none" stroke="#cdd7db" stroke-width="1.8"/>
+<path d="M 32 382 L 528 382" fill="none" stroke="#cdd7db" stroke-width="1.8"/>
+</svg>

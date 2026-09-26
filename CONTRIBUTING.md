@@ -52,6 +52,8 @@ order: 50
 
 图片放在 `docs/public/images/`，写清来源和图注。链接到其他文章时使用相对路径；示例：
 
+现有 5 张双序列/多序列教学 SVG 由 `scripts/generate-figures.mjs` 统一生成。需要改动这些图时，编辑该脚本后运行 `npm run figures`，不要只修改生成的 SVG；同步核对正文中的输入、得分和图注，并运行 `npm test`。普通新文章不要求使用生成器，仍可直接引用自己的图片。旧图来源和替换记录保存在 `migration/assets.json` 及 `migration/FIGURES-REVISION.md`。
+
 ```markdown
 [评价指标](../basics/metrics.md)
 ![描述图片内容](/images/example.png)

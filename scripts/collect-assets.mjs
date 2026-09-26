@@ -5,6 +5,8 @@ import { spawnSync } from 'node:child_process';
 const assets = JSON.parse(fs.readFileSync('migration/assets.json', 'utf8'));
 fs.mkdirSync('docs/public/images', { recursive: true });
 for (const asset of assets) {
+  // Locally generated SVGs must never be replaced by the one-time PNG downloader.
+  if (asset.status === 'generated') continue;
   const result = spawnSync('curl', ['--fail', '--location', '--silent', '--show-error', '--max-time', '20', asset.source, '--output', asset.file], { encoding: 'utf8' });
   const data = fs.existsSync(asset.file) ? fs.readFileSync(asset.file) : Buffer.alloc(0);
   const png = data.length > 8 && data.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]));

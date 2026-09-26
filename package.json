@@ -10,7 +10,8 @@
     "dev": "vitepress dev docs --host 127.0.0.1",
     "build": "node scripts/build.mjs",
     "preview": "vitepress preview docs --host 127.0.0.1",
-    "check": "node scripts/check.mjs",
+    "check": "node scripts/check.mjs && node scripts/generate-figures.mjs --check",
+    "figures": "node scripts/generate-figures.mjs",
     "test": "node --test tests/*.test.mjs",
     "qa": "node scripts/browser-qa.mjs"
   },

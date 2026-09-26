@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+<title id="title">中心序列与其余序列分别比对</title>
+<desc id="desc">S1 ACGT 与 S2 A-GT 得分4；S1 ACGT- 与 S3 ACGTT 得分6。蓝绿色始终表示中心S1，浅底表示空位。</desc>
+<style>text{font-family:"Segoe UI","Microsoft YaHei","PingFang SC",Arial,sans-serif}.mono{font-family:Consolas,"DejaVu Sans Mono",monospace}</style>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#58666e" stroke-width="1.2"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="32" y="36" font-size="24" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">S1 ↔ S2</text>
+<text x="378" y="36" font-size="22" fill="#58666e" font-weight="400" text-anchor="start" dominant-baseline="middle">两两比对</text>
+<text x="72" y="92" font-size="27" fill="#087f8c" font-weight="600" text-anchor="start" dominant-baseline="middle" class="mono">S1</text>
+<text x="176" y="92" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="92" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">C</text>
+<text x="280" y="92" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">G</text>
+<text x="332" y="92" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">T</text>
+<text x="72" y="142" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S2</text>
+<text x="176" y="142" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<rect x="207" y="121" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="228" y="142" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<text x="280" y="142" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">G</text>
+<text x="332" y="142" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">T</text>
+<text x="32" y="240" font-size="24" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">S1 ↔ S3</text>
+<text x="378" y="240" font-size="22" fill="#58666e" font-weight="400" text-anchor="start" dominant-baseline="middle">两两比对</text>
+<text x="72" y="296" font-size="27" fill="#087f8c" font-weight="600" text-anchor="start" dominant-baseline="middle" class="mono">S1</text>
+<text x="176" y="296" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="296" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">C</text>
+<text x="280" y="296" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">G</text>
+<text x="332" y="296" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">T</text>
+<rect x="363" y="275" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="384" y="296" font-size="30" fill="#087f8c" font-weight="600" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<text x="72" y="346" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S3</text>
+<text x="176" y="346" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="346" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">C</text>
+<text x="280" y="346" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">G</text>
+<text x="332" y="346" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">T</text>
+<text x="384" y="346" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">T</text>
+<path d="M 32 212 L 528 212" fill="none" stroke="#cdd7db" stroke-width="1.8"/>
+</svg>

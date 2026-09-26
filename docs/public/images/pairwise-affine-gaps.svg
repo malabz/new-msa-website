@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="568" viewBox="0 0 560 568" role="img" aria-labelledby="title desc">
+<title id="title">连续与分散空位的仿射罚分</title>
+<desc id="desc">AAAAA 与 AAA 的两种排列。AAA-- 开启一次、延伸一次，得分 2；A-A-A 开启两次，得分 0。</desc>
+<style>text{font-family:"Segoe UI","Microsoft YaHei","PingFang SC",Arial,sans-serif}.mono{font-family:Consolas,"DejaVu Sans Mono",monospace}</style>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 7 4 L 1 7" fill="none" stroke="#58666e" stroke-width="1.2"/></marker></defs>
+<rect x="0" y="0" width="560" height="568" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="32" y="36" font-size="24" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">① 连续空位</text>
+<text x="72" y="90" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S</text>
+<text x="176" y="90" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="90" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="280" y="90" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="332" y="90" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="384" y="90" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="72" y="140" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">T</text>
+<text x="176" y="140" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="140" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="280" y="140" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<rect x="311" y="119" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="332" y="140" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<rect x="363" y="119" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="384" y="140" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<path d="M 332 164 L 310 186" fill="none" stroke="#58666e" stroke-width="1.8"/>
+<text x="310" y="204" font-size="22" fill="#a75b28" font-weight="400" text-anchor="middle" dominant-baseline="middle">开启 −3</text>
+<path d="M 384 164 L 418 186" fill="none" stroke="#58666e" stroke-width="1.8"/>
+<text x="418" y="204" font-size="22" fill="#087f8c" font-weight="400" text-anchor="middle" dominant-baseline="middle">延伸 −1</text>
+<text x="40" y="252" font-size="26" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">6 − (3 + 1) = 2</text>
+<text x="32" y="316" font-size="24" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">② 分散空位</text>
+<text x="72" y="370" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">S</text>
+<text x="176" y="370" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="228" y="370" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="280" y="370" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="332" y="370" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="384" y="370" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<text x="72" y="420" font-size="27" fill="#27343b" font-weight="400" text-anchor="start" dominant-baseline="middle" class="mono">T</text>
+<text x="176" y="420" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<rect x="207" y="399" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="228" y="420" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<text x="280" y="420" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<rect x="311" y="399" width="42" height="42" fill="#e9f5f5" stroke="none" stroke-width="1.5"/>
+<text x="332" y="420" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">-</text>
+<text x="384" y="420" font-size="30" fill="#27343b" font-weight="400" text-anchor="middle" dominant-baseline="middle" class="mono">A</text>
+<path d="M 228 444 L 228 466" fill="none" stroke="#58666e" stroke-width="1.8"/>
+<text x="228" y="484" font-size="22" fill="#a75b28" font-weight="400" text-anchor="middle" dominant-baseline="middle">开启 −3</text>
+<path d="M 332 444 L 332 466" fill="none" stroke="#58666e" stroke-width="1.8"/>
+<text x="332" y="484" font-size="22" fill="#a75b28" font-weight="400" text-anchor="middle" dominant-baseline="middle">开启 −3</text>
+<text x="40" y="532" font-size="26" fill="#27343b" font-weight="600" text-anchor="start" dominant-baseline="middle">6 − 3 − 3 = 0</text>
+<path d="M 32 280 L 528 280" fill="none" stroke="#cdd7db" stroke-width="1.8"/>
+</svg>

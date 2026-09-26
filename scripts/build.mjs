@@ -4,12 +4,14 @@ import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { checkSource } from './check.mjs';
 import { checkHtml } from './check-html.mjs';
+import { checkFigures } from './generate-figures.mjs';
 import { siteBase } from '../docs/.vitepress/content.mjs';
 
 const root = path.resolve('docs/.vitepress/dist');
 // A failed build must not leave an old ready-to-publish marker behind.
 fs.rmSync(path.join(root, 'release.json'), { force: true });
 checkSource();
+checkFigures();
 const base = siteBase();
 const result = spawnSync(process.execPath, ['node_modules/vitepress/bin/vitepress.js', 'build', 'docs'], { stdio: 'inherit' });
 if (result.status !== 0) process.exit(result.status || 1);

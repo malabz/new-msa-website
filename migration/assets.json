@@ -1,49 +1,79 @@
 [
   {
-    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217144946.png",
-    "file": "docs/public/images/psa-1.png",
+    "source": "scripts/generate-figures.mjs",
+    "file": "docs/public/images/pairwise-affine-gaps.svg",
     "page": "basics/pairwise.md",
-    "alt": "双序列比对示意图",
-    "status": "localized",
-    "bytes": 17699
+    "alt": "AAAAA 与 AAA 的两种比对：连续两个空位开启一次并延伸一次，得分 2；分散空位开启两次，得分 0",
+    "status": "generated",
+    "bytes": 6064,
+    "previous": {
+      "file": "docs/public/images/psa-1.png",
+      "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217144946.png",
+      "bytes": 17699,
+      "gitCommit": "15fdbae"
+    }
   },
   {
-    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160457.png",
-    "file": "docs/public/images/msa-2.png",
+    "source": "scripts/generate-figures.mjs",
+    "file": "docs/public/images/msa-star-center.svg",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
-    "status": "localized",
-    "bytes": 7645
+    "alt": "三条序列的两两得分为 4、6、2，总分为 10、6、8；S1 总分最高，被选为中心序列",
+    "status": "generated",
+    "bytes": 4773,
+    "previous": {
+      "file": "docs/public/images/msa-2.png",
+      "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160457.png",
+      "bytes": 7645,
+      "gitCommit": "15fdbae"
+    }
   },
   {
-    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160656.png",
-    "file": "docs/public/images/msa-3.png",
+    "source": "scripts/generate-figures.mjs",
+    "file": "docs/public/images/msa-star-pairs.svg",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
-    "status": "localized",
-    "bytes": 47258
+    "alt": "中心 S1 与 S2 的比对为 ACGT 对 A-GT，得分 4；与 S3 的比对为 ACGT- 对 ACGTT，得分 6",
+    "status": "generated",
+    "bytes": 4715,
+    "previous": {
+      "file": "docs/public/images/msa-3.png",
+      "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160656.png",
+      "bytes": 47258,
+      "gitCommit": "15fdbae"
+    }
   },
   {
-    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160822.png",
-    "file": "docs/public/images/msa-4.png",
+    "source": "scripts/generate-figures.mjs",
+    "file": "docs/public/images/msa-star-merge.svg",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
-    "status": "localized",
-    "bytes": 114686
+    "alt": "在 S1 与 S2 的已有比对末端同步补入空位，再加入 S3；最终三行为 ACGT-、A-GT-、ACGTT",
+    "status": "generated",
+    "bytes": 7720,
+    "previous": {
+      "file": "docs/public/images/msa-4.png",
+      "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160822.png",
+      "bytes": 114686,
+      "gitCommit": "15fdbae"
+    }
   },
   {
-    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllLinux/20210510181827.png",
-    "file": "docs/public/images/msa-5.png",
+    "source": "scripts/generate-figures.mjs",
+    "file": "docs/public/images/msa-guide-tree.svg",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
-    "status": "localized",
-    "bytes": 6740
+    "alt": "指导树的三次合并顺序：首先合并 S1 和 S3，再加入 S2，最后加入 S4",
+    "status": "generated",
+    "bytes": 2765,
+    "previous": {
+      "file": "docs/public/images/msa-5.png",
+      "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllLinux/20210510181827.png",
+      "bytes": 6740,
+      "gitCommit": "15fdbae"
+    }
   },
   {
     "source": "https://cdn.jsdelivr.net/gh/wym6912/PicBed@e3686a480b477cb1ccaefa897f47877f376ccada/malab/poa-sample.png",
     "file": "docs/public/images/msa-6.png",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
+    "alt": "原始 POA 图：两条序列共享 CCGC 前后缀，中间分别经过四个 A 或四个 T 节点",
     "status": "localized",
     "bytes": 20144
   },
@@ -51,7 +81,7 @@
     "source": "https://cdn.jsdelivr.net/gh/wym6912/PicBed@main/malab/poa-dynamicprogramming.png",
     "file": "docs/public/images/msa-7.png",
     "page": "basics/multiple.md",
-    "alt": "多序列比对示意图",
+    "alt": "原始 DAG 动态规划图：A 和 G 两个前驱的绿色与紫色箭头，以及同一行的蓝色箭头，汇入最下方 T 对应的当前单元",
     "status": "localized",
     "bytes": 154851
   },
