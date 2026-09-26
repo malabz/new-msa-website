@@ -1,0 +1,152 @@
+[
+  {
+    "source": "index.jemdoc",
+    "target": "index.md",
+    "checkedLines": 1,
+    "missing": []
+  },
+  {
+    "source": "psa.jemdoc",
+    "target": "basics/pairwise.md",
+    "checkedLines": 46,
+    "missing": []
+  },
+  {
+    "source": "msa.jemdoc",
+    "target": "basics/multiple.md",
+    "checkedLines": 41,
+    "missing": []
+  },
+  {
+    "source": "mga.jemdoc",
+    "target": "basics/genome.md",
+    "checkedLines": 46,
+    "missing": []
+  },
+  {
+    "source": "measure.jemdoc",
+    "target": "basics/metrics.md",
+    "checkedLines": 21,
+    "missing": []
+  },
+  {
+    "source": "realignment.jemdoc",
+    "target": "realignment/overview.md",
+    "checkedLines": 28,
+    "missing": []
+  },
+  {
+    "source": "realigner_ver.jemdoc",
+    "target": "realignment/standalone.md",
+    "checkedLines": 24,
+    "missing": []
+  },
+  {
+    "source": "realigner_hor.jemdoc",
+    "target": "realignment/standalone.md",
+    "checkedLines": 31,
+    "missing": []
+  },
+  {
+    "source": "realigner_both.jemdoc",
+    "target": "realignment/standalone.md",
+    "checkedLines": 12,
+    "missing": []
+  },
+  {
+    "source": "realign_msa_ver.jemdoc",
+    "target": "realignment/in-msa.md",
+    "checkedLines": 13,
+    "missing": []
+  },
+  {
+    "source": "realign_msa_hor.jemdoc",
+    "target": "realignment/in-msa.md",
+    "checkedLines": 92,
+    "missing": []
+  },
+  {
+    "source": "realign_in_msa.jemdoc",
+    "target": "realignment/in-msa.md",
+    "checkedLines": 21,
+    "missing": []
+  },
+  {
+    "source": "datasets.jemdoc",
+    "target": "data/datasets.md",
+    "checkedLines": 97,
+    "missing": []
+  },
+  {
+    "source": "simu_data.jemdoc",
+    "target": "data/simulation.md",
+    "checkedLines": 65,
+    "missing": []
+  },
+  {
+    "source": "software_conclu.jemdoc",
+    "target": "software/lab.md",
+    "checkedLines": 45,
+    "missing": []
+  },
+  {
+    "source": "msaligners.jemdoc",
+    "target": "software/third-party.md",
+    "checkedLines": 11,
+    "missing": []
+  },
+  {
+    "source": "abpoa.jemdoc",
+    "target": "software/third-party.md",
+    "checkedLines": 14,
+    "missing": []
+  },
+  {
+    "source": "clustalo.jemdoc",
+    "target": "software/third-party.md",
+    "checkedLines": 27,
+    "missing": []
+  },
+  {
+    "source": "tcoffee.jemdoc",
+    "target": "software/third-party.md",
+    "checkedLines": 10,
+    "missing": []
+  },
+  {
+    "source": "software_notes.jemdoc",
+    "target": "software/third-party.md",
+    "checkedLines": 4,
+    "missing": []
+  },
+  {
+    "source": "cactus_install.jemdoc",
+    "target": "software/cactus.md",
+    "checkedLines": 33,
+    "missing": []
+  },
+  {
+    "source": "unialigner_install.jemdoc",
+    "target": "software/unialigner.md",
+    "checkedLines": 30,
+    "missing": []
+  },
+  {
+    "source": "tools.jemdoc",
+    "target": "development/scripts.md",
+    "checkedLines": 27,
+    "missing": []
+  },
+  {
+    "source": "modules.jemdoc",
+    "target": "development/libraries.md",
+    "checkedLines": 22,
+    "missing": []
+  },
+  {
+    "source": "papers.jemdoc",
+    "target": "publications/papers.md",
+    "checkedLines": 28,
+    "missing": []
+  }
+]

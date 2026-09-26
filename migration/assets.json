@@ -1,0 +1,74 @@
+[
+  {
+    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217144946.png",
+    "file": "docs/public/images/psa-1.png",
+    "page": "basics/pairwise.md",
+    "alt": "双序列比对示意图",
+    "status": "localized",
+    "bytes": 17699
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160457.png",
+    "file": "docs/public/images/msa-2.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 7645
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160656.png",
+    "file": "docs/public/images/msa-3.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 47258
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217160822.png",
+    "file": "docs/public/images/msa-4.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 114686
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllLinux/20210510181827.png",
+    "file": "docs/public/images/msa-5.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 6740
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/wym6912/PicBed@e3686a480b477cb1ccaefa897f47877f376ccada/malab/poa-sample.png",
+    "file": "docs/public/images/msa-6.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 20144
+  },
+  {
+    "source": "https://cdn.jsdelivr.net/gh/wym6912/PicBed@main/malab/poa-dynamicprogramming.png",
+    "file": "docs/public/images/msa-7.png",
+    "page": "basics/multiple.md",
+    "alt": "多序列比对示意图",
+    "status": "localized",
+    "bytes": 154851
+  },
+  {
+    "source": "http://lab.malab.cn/~cjt/MSA/assert/mga.png",
+    "file": "docs/public/images/mga-8.png",
+    "page": "basics/genome.md",
+    "alt": "基因组比对示意图",
+    "status": "localized",
+    "bytes": 404368
+  },
+  {
+    "source": "http://lab.malab.cn/~cjt/MSA/assert/pangenome.png",
+    "file": "docs/public/images/mga-9.png",
+    "page": "basics/genome.md",
+    "alt": "基因组比对示意图",
+    "status": "localized",
+    "bytes": 113331
+  }
+]

@@ -1,0 +1,1353 @@
+{
+  "baseline": "ae32d2cab0483c510103636c777ba384a859d0a7",
+  "source_repository": "https://github.com/pinglu-zhang/msawebsite",
+  "pages": [
+    {
+      "source": "index.jemdoc",
+      "lines": 6,
+      "target": "index.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/index.jemdoc"
+    },
+    {
+      "source": "psa.jemdoc",
+      "lines": 171,
+      "target": "basics/pairwise.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/psa.jemdoc"
+    },
+    {
+      "source": "msa.jemdoc",
+      "lines": 174,
+      "target": "basics/multiple.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/msa.jemdoc"
+    },
+    {
+      "source": "mga.jemdoc",
+      "lines": 91,
+      "target": "basics/genome.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/mga.jemdoc"
+    },
+    {
+      "source": "measure.jemdoc",
+      "lines": 57,
+      "target": "basics/metrics.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/measure.jemdoc"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "lines": 50,
+      "target": "realignment/overview.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realignment.jemdoc"
+    },
+    {
+      "source": "realigner_ver.jemdoc",
+      "lines": 49,
+      "target": "realignment/standalone.md",
+      "anchor": "vertical",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realigner_ver.jemdoc"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "lines": 64,
+      "target": "realignment/standalone.md",
+      "anchor": "horizontal",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realigner_hor.jemdoc"
+    },
+    {
+      "source": "realigner_both.jemdoc",
+      "lines": 34,
+      "target": "realignment/standalone.md",
+      "anchor": "combined",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realigner_both.jemdoc"
+    },
+    {
+      "source": "realign_msa_ver.jemdoc",
+      "lines": 36,
+      "target": "realignment/in-msa.md",
+      "anchor": "vertical",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realign_msa_ver.jemdoc"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "lines": 164,
+      "target": "realignment/in-msa.md",
+      "anchor": "horizontal",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realign_msa_hor.jemdoc"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "lines": 90,
+      "target": "realignment/in-msa.md",
+      "anchor": "additional",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/realign_in_msa.jemdoc"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "lines": 213,
+      "target": "data/datasets.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/datasets.jemdoc"
+    },
+    {
+      "source": "simu_data.jemdoc",
+      "lines": 129,
+      "target": "data/simulation.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/simu_data.jemdoc"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "lines": 128,
+      "target": "software/lab.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/software_conclu.jemdoc"
+    },
+    {
+      "source": "msaligners.jemdoc",
+      "lines": 26,
+      "target": "software/third-party.md",
+      "anchor": "catalog",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/msaligners.jemdoc"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "lines": 63,
+      "target": "software/third-party.md",
+      "anchor": "abpoa",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/abpoa.jemdoc"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "lines": 98,
+      "target": "software/third-party.md",
+      "anchor": "clustalo",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/clustalo.jemdoc"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "lines": 44,
+      "target": "software/third-party.md",
+      "anchor": "tcoffee",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/tcoffee.jemdoc"
+    },
+    {
+      "source": "software_notes.jemdoc",
+      "lines": 12,
+      "target": "software/third-party.md",
+      "anchor": "installation",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/software_notes.jemdoc"
+    },
+    {
+      "source": "cactus_install.jemdoc",
+      "lines": 85,
+      "target": "software/cactus.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/cactus_install.jemdoc"
+    },
+    {
+      "source": "unialigner_install.jemdoc",
+      "lines": 89,
+      "target": "software/unialigner.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/unialigner_install.jemdoc"
+    },
+    {
+      "source": "tools.jemdoc",
+      "lines": 80,
+      "target": "development/scripts.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/tools.jemdoc"
+    },
+    {
+      "source": "modules.jemdoc",
+      "lines": 79,
+      "target": "development/libraries.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/modules.jemdoc"
+    },
+    {
+      "source": "papers.jemdoc",
+      "lines": 74,
+      "target": "publications/papers.md",
+      "anchor": "",
+      "source_url": "https://github.com/pinglu-zhang/msawebsite/blob/ae32d2cab0483c510103636c777ba384a859d0a7/doc/papers.jemdoc"
+    }
+  ],
+  "sections": [
+    {
+      "source": "psa.jemdoc",
+      "heading": "动态规划",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "分治法-线性空间改进算法",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "kband算法",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "仿射罚分",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "分治法-线性空间改进仿射罚分算法",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "基于同源区段对齐的双序列比对",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "索引方式",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "比对实现",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "profile比对",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "psa.jemdoc",
+      "heading": "比对实现",
+      "target": "basics/pairwise.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "星比对",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "例子",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "多核并行",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "内存优化",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "树比对",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "例子",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "偏序图比对 （Partial Order Multiple Sequence Alignment, PO-MSA/POA）",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "多序列的有向无环图表示",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "基于 POA 求解多序列比对并生成共识序列",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "DAG 与序列的比对",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "msa.jemdoc",
+      "heading": "方法实现",
+      "target": "basics/multiple.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "早期发展",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "多基因组比对",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "多物种基因组比对",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "基准测试数据集",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "评估标准",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "泛基因组",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "mga.jemdoc",
+      "heading": "参考文献",
+      "target": "basics/genome.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "SP score",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "计算公式",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "参考内容",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "Q score",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "计算公式",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "参考内容",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "TC score",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "计算公式",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "measure.jemdoc",
+      "heading": "参考内容",
+      "target": "basics/metrics.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "[realigner_ver.html Realigners based on vertical partitioning]",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "[realigner_hor.html Realigners based on horizontal partitioning]",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "[realigner_both.html Realigners based on vertical and horizontal partitioning]",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "Realignment in MSA tools",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "[realign_msa_ver.html Vertical-oriented realignment in MSA tools]",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "[realign_msa_hor.html Horizontal-oriented realignment in MSA tools]",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realignment.jemdoc",
+      "heading": "Reference",
+      "target": "realignment/overview.md"
+    },
+    {
+      "source": "realigner_ver.jemdoc",
+      "heading": "Realigners based on vertical partitioning",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_ver.jemdoc",
+      "heading": "[https://informatica.si/index.php/informatica/article/view/2621/0 1. Refin-Align (2019)] ",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_ver.jemdoc",
+      "heading": "[https://www.ingentaconnect.com/content/ben/ppl/2020/00000027/00000004/art00007 2. SpliVert (2020)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_ver.jemdoc",
+      "heading": "[https://www.worldscientific.com/doi/epdf/10.1142/S0219720022400029 3. RPfam (2022)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "Realigners based on horizontal partitioning",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "[https://dl.acm.org/doi/pdf/10.1145/267521.267524 1. ReAligner (1997)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/21/8/1408/249176 2. Remove First method (2005)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "[https://ieeexplore.ieee.org/abstract/document/1498013 3. TreeRefiner (2005)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "[https://academic.oup.com/nar/article/34/9/2598/2401672 4. REFINER (2006)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_hor.jemdoc",
+      "heading": "[https://link.springer.com/article/10.1186/1471-2105-15-265 5. ReformAlign (2014)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_both.jemdoc",
+      "heading": "Realigners based on vertical and horizontal partitioning",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_both.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article-abstract/19/9/1155/285019 1. RASCAL (2003)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realigner_both.jemdoc",
+      "heading": "[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-144\\#Sec3 2. Crumble and Prune (2011)]",
+      "target": "realignment/standalone.md"
+    },
+    {
+      "source": "realign_msa_ver.jemdoc",
+      "heading": "Vertical-oriented realignment in MSA tools",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_ver.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/16/9/808/307658 1. OMA (2000)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_ver.jemdoc",
+      "heading": "[https://www.nature.com/articles/srep33964 2. FAMSA (2016)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_ver.jemdoc",
+      "heading": "[https://www.nature.com/articles/srep41553 3. QuickProbs2 (2017)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "Horizontal-oriented realignment in MSA tools",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://www.sciencedirect.com/science/article/pii/S0022283696906798 1. PRRP (1996)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://genome.cshlp.org/content/13/4/721.full 2. MLAGAN (2002)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://link.springer.com/protocol/10.1007/978-1-62703-646-7_8 3. MAFFT (2002)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://academic.oup.com/nar/article/32/5/1792/2380623 4. MUSCLE3 (2004)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://genome.cshlp.org/content/15/2/330.short 5. ProbCons (2004)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-524 6. PRIME (2006)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://www.worldscientific.com/doi/abs/10.1142/9781860948732_0026 7. MANGO (2007)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/23/9/1073/272774 8. COBALT (2007)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/24/4/492/207730 9. PRALINE™ (2008)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://ieeexplore.ieee.org/abstract/document/5223562 10. IPAM (2009)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/26/16/1958/218540 11. MSAProbs (2010)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-472\\#Sec2 12. MSACompro (2011)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://link.springer.com/chapter/10.1007/978-3-642-24855-9_26 13. PAAA (2011)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://link.springer.com/article/10.1186/1471-2105-13-64 14. MMSA (2012)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://dl.acm.org/doi/abs/10.1145/2506583.2506611 15. GLProbs (2013)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://ieeexplore.ieee.org/abstract/document/6637352 16. Javad Sadri's work (2013)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://ieeexplore.ieee.org/abstract/document/6621350 17. Motalign (2013)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0088901 18. QuickProbs (2014)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1121-7 19. PnpProbs (2016)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_msa_hor.jemdoc",
+      "heading": "[http://www.jsoftware.us/vol13/312-T017.pdf 20. Pro-malign (2018)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "Realignment in MSA tools",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MULTALIGN (1987)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "PRRP (1996)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/16/9/808/307658 OMA (2000)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://genome.cshlp.org/content/13/4/721.full LAGAN and Multi-LAGAN (2002)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MAFFT",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MUSCLE",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "PROBCONS (2004)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "Opal (2004)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "SIROA (2004)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MSAID (2005)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "SPEM (2005)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "PRIME (2006)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MANGO (2007)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/23/9/1073/272774 COBALT (2007)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://academic.oup.com/bioinformatics/article/24/4/492/207730 PRALINE™ (2008)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "IPAM (2009)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "MSAProbs (2010)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://link.springer.com/chapter/10.1007/978-3-642-24855-9_26 PAAA (2011)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://link.springer.com/article/10.1186/1471-2105-13-64 MMSA (2012)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://www.nature.com/articles/srep33964 FAMSA (2016)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "[https://www.nature.com/articles/srep41553 QuickProbs2 (2017)]",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "PRANK",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "realign_in_msa.jemdoc",
+      "heading": "SplitVert (2020)",
+      "target": "realignment/in-msa.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "多基因组比对与泛基因组数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "MGA-Dataset",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "DNA/RNA真实数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Ancient human partial mitochondrial DNA",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "mitochondrial genomes",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Human Genome",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "人类基因组基因",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "人类Y染色体基因组",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "3条人类1号染色体",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "16S rRNA",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Mycobacterium 23S rRNA sequences",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Neisseria-meningitidis",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Streptococcus-pneumoniae",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Escherichia-coil",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "GMGC 数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "HIV 数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "病毒基因组数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "COVID-19",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "猴痘数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "IAV数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Dengue数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Ebola数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "HBV数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "HCV数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "HIV-1数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Measles数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "West Nile数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Zika数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "DNA/RNA模拟数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Hierarchical tree simulated datasets",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Star-tree simulated datasets",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "RNA模拟数据",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "模拟noncoding数据",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "蛋白质数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "MUSCLE 数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "extHomFam 数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "QuanTest2 数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "Pfam(38.1) full子数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "datasets.jemdoc",
+      "heading": "IQ-TREE3模拟数据集",
+      "target": "data/datasets.md"
+    },
+    {
+      "source": "simu_data.jemdoc",
+      "heading": "使用示例",
+      "target": "data/simulation.md"
+    },
+    {
+      "source": "simu_data.jemdoc",
+      "heading": "IQTree生成碱基替换模型和进化树",
+      "target": "data/simulation.md"
+    },
+    {
+      "source": "simu_data.jemdoc",
+      "heading": "使用INDELible生成模拟数据集",
+      "target": "data/simulation.md"
+    },
+    {
+      "source": "simu_data.jemdoc",
+      "heading": "参考内容",
+      "target": "data/simulation.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "多序列比对工具",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "HAlign3([https://github.com/malabz/HAlign-3 soft])",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "运行方式",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "参数说明",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "注意事项",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "HAlign4([https://github.com/malabz/HAlign-4 soft])",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "运行方式",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "参数说明",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "FMAlign2([https://github.com/malabz/FMAlign2 soft])",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "运行方式",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "参数说明",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "注意事项",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "WMSA2([https://github.com/malabz/WMSA2/ soft])",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "运行方式",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "参数说明",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "注意事项",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "software_conclu.jemdoc",
+      "heading": "实用建议",
+      "target": "software/lab.md"
+    },
+    {
+      "source": "msaligners.jemdoc",
+      "heading": "Multiple Sequence Aligners",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "msaligners.jemdoc",
+      "heading": "GENERIC RESOURCES",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "安装",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "推荐使用 conda 进行配置",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "Linux 系统",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "Windows 系统",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "安装",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "推荐使用 conda 进行配置",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "Linux 系统",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "Windows 系统",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "abpoa.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装（Unix系统下）",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装clustalo",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装argtable2",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装（Unix系统下）",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装clustalo",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "安装argtable2",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "clustalo.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "安装（Unix系统下）",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "安装T-Coffee",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "安装（Unix系统下）",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "安装T-Coffee",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "使用",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "tcoffee.jemdoc",
+      "heading": "参考内容",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "software_notes.jemdoc",
+      "heading": "[unialigner_install.html unialigner安装踩坑]",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "software_notes.jemdoc",
+      "heading": "[cactus_install.html Cactus的安装和简单使用]",
+      "target": "software/third-party.md"
+    },
+    {
+      "source": "cactus_install.jemdoc",
+      "heading": "Cactus的安装",
+      "target": "software/cactus.md"
+    },
+    {
+      "source": "cactus_install.jemdoc",
+      "heading": "Cactus的简单使用",
+      "target": "software/cactus.md"
+    },
+    {
+      "source": "unialigner_install.jemdoc",
+      "heading": "安装前的注意事项",
+      "target": "software/unialigner.md"
+    },
+    {
+      "source": "unialigner_install.jemdoc",
+      "heading": "CMake 和 GCC 的版本要求",
+      "target": "software/unialigner.md"
+    },
+    {
+      "source": "unialigner_install.jemdoc",
+      "heading": "CMake 版本过低时的解决方法",
+      "target": "software/unialigner.md"
+    },
+    {
+      "source": "unialigner_install.jemdoc",
+      "heading": "GCC 版本不符合要求时的解决方法",
+      "target": "software/unialigner.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "统计数据集序列信息",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "介绍：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "用法：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "处理非法字符的脚本",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "介绍：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "用法：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "处理N的脚本",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "介绍：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "tools.jemdoc",
+      "heading": "用法：",
+      "target": "development/scripts.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "[https://github.com/malabz/klib kilb] ",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "用法：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "Sufkit 后缀索引库",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "简介：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "项目地址",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "SeqPro FASTA 随机访问库",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "简介：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "项目地址",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "基于四俄国人思想的双序列比对算法模块",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "简介：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "用法：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "项目地址：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "modules.jemdoc",
+      "heading": "文献引用：",
+      "target": "development/libraries.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "MSA",
+      "target": "publications/papers.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "MSA post-processing",
+      "target": "publications/papers.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "MGA",
+      "target": "publications/papers.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "PSA",
+      "target": "publications/papers.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "Review",
+      "target": "publications/papers.md"
+    },
+    {
+      "source": "papers.jemdoc",
+      "heading": "其他论文",
+      "target": "publications/papers.md"
+    }
+  ]
+}

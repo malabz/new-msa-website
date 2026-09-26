@@ -1,0 +1,133 @@
+[
+  {
+    "sourceHeading": "MULTALIGN (1987)",
+    "action": "retained",
+    "targetHeading": "MULTALIGN (1987)"
+  },
+  {
+    "sourceHeading": "PRRP (1996)",
+    "action": "merged",
+    "targetHeading": "[1. PRRP (1996)](https://www.sciencedirect.com/science/article/pii/S0022283696906798)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "[OMA (2000)](https://academic.oup.com/bioinformatics/article/16/9/808/307658)",
+    "action": "merged",
+    "targetHeading": "[1. OMA (2000)](https://academic.oup.com/bioinformatics/article/16/9/808/307658)",
+    "bodyChars": 66
+  },
+  {
+    "sourceHeading": "[LAGAN and Multi-LAGAN (2002)](https://genome.cshlp.org/content/13/4/721.full)",
+    "action": "merged",
+    "targetHeading": "[2. MLAGAN (2002)](https://genome.cshlp.org/content/13/4/721.full)",
+    "bodyChars": 47
+  },
+  {
+    "sourceHeading": "MAFFT",
+    "action": "merged",
+    "targetHeading": "[3. MAFFT (2002)](https://link.springer.com/protocol/10.1007/978-1-62703-646-7_8)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "MUSCLE",
+    "action": "merged",
+    "targetHeading": "[4. MUSCLE3 (2004)](https://academic.oup.com/nar/article/32/5/1792/2380623)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "PROBCONS (2004)",
+    "action": "merged",
+    "targetHeading": "[5. ProbCons (2004)](https://genome.cshlp.org/content/15/2/330.short)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "Opal (2004)",
+    "action": "retained",
+    "targetHeading": "Opal (2004)"
+  },
+  {
+    "sourceHeading": "SIROA (2004)",
+    "action": "retained",
+    "targetHeading": "SIROA (2004)"
+  },
+  {
+    "sourceHeading": "MSAID (2005)",
+    "action": "retained",
+    "targetHeading": "MSAID (2005)"
+  },
+  {
+    "sourceHeading": "SPEM (2005)",
+    "action": "retained",
+    "targetHeading": "SPEM (2005)"
+  },
+  {
+    "sourceHeading": "PRIME (2006)",
+    "action": "merged",
+    "targetHeading": "[6. PRIME (2006)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-524)",
+    "bodyChars": 63
+  },
+  {
+    "sourceHeading": "MANGO (2007)",
+    "action": "merged",
+    "targetHeading": "[7. MANGO (2007)](https://www.worldscientific.com/doi/abs/10.1142/9781860948732_0026)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "[COBALT (2007)](https://academic.oup.com/bioinformatics/article/23/9/1073/272774)",
+    "action": "merged",
+    "targetHeading": "[8. COBALT (2007)](https://academic.oup.com/bioinformatics/article/23/9/1073/272774)",
+    "bodyChars": 88
+  },
+  {
+    "sourceHeading": "[PRALINE™ (2008)](https://academic.oup.com/bioinformatics/article/24/4/492/207730)",
+    "action": "merged",
+    "targetHeading": "[9. PRALINE™ (2008)](https://academic.oup.com/bioinformatics/article/24/4/492/207730)",
+    "bodyChars": 66
+  },
+  {
+    "sourceHeading": "IPAM (2009)",
+    "action": "merged",
+    "targetHeading": "[10. IPAM (2009)](https://ieeexplore.ieee.org/abstract/document/5223562)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "MSAProbs (2010)",
+    "action": "merged",
+    "targetHeading": "[11. MSAProbs (2010)](https://academic.oup.com/bioinformatics/article/26/16/1958/218540)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "[PAAA (2011)](https://link.springer.com/chapter/10.1007/978-3-642-24855-9_26)",
+    "action": "merged",
+    "targetHeading": "[13. PAAA (2011)](https://link.springer.com/chapter/10.1007/978-3-642-24855-9_26)",
+    "bodyChars": 364
+  },
+  {
+    "sourceHeading": "[MMSA (2012)](https://link.springer.com/article/10.1186/1471-2105-13-64)",
+    "action": "merged",
+    "targetHeading": "[14. MMSA (2012)](https://link.springer.com/article/10.1186/1471-2105-13-64)",
+    "bodyChars": 83
+  },
+  {
+    "sourceHeading": "[FAMSA (2016)](https://www.nature.com/articles/srep33964)",
+    "action": "merged",
+    "targetHeading": "[2. FAMSA (2016)](https://www.nature.com/articles/srep33964)",
+    "bodyChars": 565
+  },
+  {
+    "sourceHeading": "[QuickProbs2 (2017)](https://www.nature.com/articles/srep41553)",
+    "action": "merged",
+    "targetHeading": "[3. QuickProbs2 (2017)](https://www.nature.com/articles/srep41553)",
+    "bodyChars": 0
+  },
+  {
+    "sourceHeading": "PRANK",
+    "action": "retained",
+    "targetHeading": "PRANK"
+  },
+  {
+    "sourceHeading": "SplitVert (2020)",
+    "action": "retained",
+    "targetHeading": "SplitVert (2020)"
+  }
+]

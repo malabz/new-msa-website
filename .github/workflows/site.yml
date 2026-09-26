@@ -1,0 +1,49 @@
+name: Check and build MSA website
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: msa-${{ github.event_name == 'pull_request' && github.ref || 'release' }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check && npm test
+      - run: npm run build
+        env:
+          SITE_BASE: ${{ vars.SITE_BASE || '/' }}
+          SITE_REPOSITORY: ${{ github.repository }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: msa-static-site
+          path: docs/.vitepress/dist/
+          retention-days: 14
+  publish:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          name: msa-static-site
+          path: docs/.vitepress/dist/
+      - run: node scripts/publish.mjs

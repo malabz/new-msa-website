@@ -1,0 +1,2502 @@
+{
+  "checkedAt": "2026-09-26T05:23:46.923Z",
+  "method": "HEAD; 404/405/410 retried using bounded GET; no genome datasets downloaded",
+  "results": [
+    {
+      "url": "http://abacus.gene.ucl.ac.uk/software/indelible/",
+      "pages": [
+        "docs/data/simulation.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://abacus.gene.ucl.ac.uk/software/indelible/manual/",
+      "pages": [
+        "docs/data/simulation.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://argtable.sourceforge.net/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://bioinf.ucd.ie/quantest2.tar",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "unverified",
+      "code": 503,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://bioinfolab.unl.edu/~cstrope/iSG/benchmark/index.html",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://dialign-tx.gobics.de/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 12000 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "http://ekhidna.biocenter.helsinki.fi/MMSA",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://evol.bio.lmu.de/_statgen/software/reformalign/",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://hgwdev.cse.ucsc.edu/~krish/crumble_prune/",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 60,
+      "error": "curl: (60) SSL: no alternative certificate subject name matches target host name 'hgwdev.cse.ucsc.edu'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above."
+    },
+    {
+      "url": "http://lab.malab.cn/%7Etfr/HAlign3_testdata/23s_rRNA.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/%7Etfr/HAlign3_testdata/star_simudata_1000seq.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~cjt/MSA/data/Human_Genome_21.html",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~cjt/MSA/data/msa_1012.tar-2.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~cjt/MSA/data/SARS-CoV-2_20200417.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~cjt/MSA/data/SARS-CoV-2.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~tfr/HAlign3_testdata/mt_like_diff_similarity.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~tfr/HAlign3_testdata/mt_like_diff_treelength.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~tfr/HAlign3_testdata/sars_cov_2_1Mseq.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~tfr/HAlign3_testdata/sars_cov_2_like_diff_similarity.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~tfr/HAlign3_testdata/sars_cov_2_like_diff_treelength.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/~zsl/Periodical_results/data/2019nCoVR_20200301.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/16sbig.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/16ssmall.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/hCoV-19_msa_20230822.tar.xz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/mt100x.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/mt1x.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/mt20x.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/halign/data/mt50x.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/protein/iqtree_simulated.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/protein/pfam_subset.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/dengue.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/ebola.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/hbv.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/hcv.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/hiv-1.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/iav_data.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/measles.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/msa_test_data/virus/zika.7z",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/mt.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-1023.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-2047.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-255.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-4095.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-511.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lab.malab.cn/soft/WMSA2/data/RNA-8191.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://lagan.stanford.edu",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://msa.cgb.ki.se",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://prime.cbrc.jp/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 503,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://probcons.stanford.edu",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://sysbio.rnet.missouri.edu/multicom_toolbox/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://treerefiner.stanford.edu/index.html",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.arb-silva.de/",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.bioinf.ucd.ie/people/iain/iteration.html",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "unverified",
+      "code": 503,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.bioinfo.org.cn/mango/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.biophys.kyoto-u.ac.jp/~katoh/programs/align/mafft/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.clustal.org/omega/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.clustal.org/omega/INSTALL",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.drive5.com/bench/",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.drive5.com/muscle/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.iqtree.org",
+      "pages": [
+        "docs/data/simulation.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.jgenetgenomics.org/en/article/doi/10.1016/j.jgg.2018.07.004",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "unverified",
+      "code": 503,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.jsoftware.us/vol13/312-T017.pdf",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.juestc.uestc.edu.cn/cn/article/doi/10.12178/1001-0548.2021406",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "http://www.tcoffee.org",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bib/article/23/1/bbab519/6458932",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article-abstract/19/9/1155/285019",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/16/9/808/307658",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/21/8/1408/249176",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/23/9/1073/272774",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/24/4/492/207730",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/26/16/1958/218540",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/31/15/2475/188425",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/40/12/btae718/7912339",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/bioinformatics/article/41/8/btaf421/8213638?login=false",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/nar/article/32/5/1792/2380623",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/nar/article/34/9/2598/2401672",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://academic.oup.com/nargab/article/6/4/lqae170/7928182",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://bibiserv.cebitec.uni-bielefeld.de/oma/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-144",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-472",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 28,
+      "error": "curl: (28) Connection timed out after 983 milliseconds"
+    },
+    {
+      "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-524",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 28,
+      "error": "curl: (28) Connection timed out after 4812 milliseconds"
+    },
+    {
+      "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1121-7",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 302,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 556 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "https://cgl.gi.ucsc.edu/data/alignathon/downloads.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://cgl.gi.ucsc.edu/data/alignathon/index.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://darlinglab.org/mauve/user-guide/progressivemauve.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BO2SVW",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 202,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://dl.acm.org/doi/abs/10.1145/2506583.2506611",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/267521.267524",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/bib/bbac069",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/bib/bbad190",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/bib/bbaf061",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/bioinformatics/btac658",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/bioinformatics/btae014",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/gigascience/giaf163",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1093/molbev/msac166",
+      "pages": [
+        "docs/data/datasets.md",
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://doi.org/10.1101/gr.279763.124",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 302,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 305 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pcbi.1011988",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://drive5.com/muscle/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_sequence_alignment_software",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://genome.cshlp.org/content/13/4/721.full",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 429,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://genome.cshlp.org/content/15/2/330.short",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 429,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://genome.cshlp.org/content/21/9/1512.short",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 302,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 961 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "https://genome.cshlp.org/content/early/2026/07/23/gr282046126",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 302,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 346 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "https://genome.ucsc.edu/FAQ/FAQformat.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://gfa-spec.github.io/GFA-spec/GFA1.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/cactus",
+      "pages": [
+        "docs/basics/genome.md",
+        "docs/software/cactus.md",
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/progressive.md",
+      "pages": [
+        "docs/software/cactus.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/cactus/blob/v2.9.0/BIN-INSTALL.md",
+      "pages": [
+        "docs/software/cactus.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/cactus/releases/download/v2.9.0/cactus-bin-v2.9.0.tar.gz",
+      "pages": [
+        "docs/software/cactus.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/cactus/releases/tag/v2.9.0",
+      "pages": [
+        "docs/software/cactus.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ComparativeGenomicsToolkit/hal",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/dentearl/mafTools",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/dentearl/mafTools/tree/master/mafComparator",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/dentearl/mwgAlignAnalysis/blob/master/evaluations/src/comparatorWrapper/comparatorSummarizer.py",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/DongDongNeophyte/VCSRA_code",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/centerstar_MSA",
+      "pages": [
+        "docs/basics/multiple.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/FM-index",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/profileAlignment",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/c/PSA_fmindex.c",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/c/PSA_kband.c",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/FMAlign.java",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/Kband.java",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/STAlign.java",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/python/PSA_Kband.py",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/python/PSA_STree.py",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.java",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.py",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/jonathanmarvens/argtable2",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/lh3/minimap2",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/abPOA",
+      "pages": [
+        "docs/basics/multiple.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/abPOA/releases/download/v1.4.1.1/abPOA-v1.4.1.1.tar.gz",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/deMEM",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/FMAlign2",
+      "pages": [
+        "docs/publications/papers.md",
+        "docs/software/lab.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/FORAlign",
+      "pages": [
+        "docs/basics/pairwise.md",
+        "docs/development/libraries.md",
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/FORAlign?tab=readme-ov-file",
+      "pages": [
+        "docs/basics/pairwise.md",
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/GMGC-data",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HAlign",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HAlign-3",
+      "pages": [
+        "docs/publications/papers.md",
+        "docs/software/lab.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HAlign-3/tree/main/dataset",
+      "pages": [
+        "docs/data/simulation.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HAlign-4",
+      "pages": [
+        "docs/publications/papers.md",
+        "docs/software/lab.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HAlign-G",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.001",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.002",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.003",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.004",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.005",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.006",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.007",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.008",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/3-Human-chromosome-1.zip.009",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/Escherichia-coil.zip.001",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/Escherichia-coil.zip.002",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/Neisseria-meningitidis.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Halign-G/raw/main/data/Streptococcus-pneumoniae.zip",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "not-found",
+      "code": 404,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/HIV-data",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/JMSA",
+      "pages": [
+        "docs/development/scripts.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Jtmsa/blob/master/BufferCenterAlign.py",
+      "pages": [
+        "docs/basics/multiple.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Jtmsa/blob/master/MSA_star_align.py",
+      "pages": [
+        "docs/basics/multiple.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/Jtmsa/blob/master/MSA_Star_Multi_core.py",
+      "pages": [
+        "docs/basics/multiple.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/klib",
+      "pages": [
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MGA-Dataset",
+      "pages": [
+        "docs/basics/genome.md",
+        "docs/data/datasets.md",
+        "docs/index.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MPoxVR_dataset",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MPoxVR_dataset/releases/tag/20230819",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MSATOOLS/tree/main/deal_N_tool",
+      "pages": [
+        "docs/development/scripts.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MSATOOLS/tree/main/preprocess",
+      "pages": [
+        "docs/development/scripts.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/MSATOOLS/tree/main/SPscore",
+      "pages": [
+        "docs/basics/metrics.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/QuanTest2",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/ReAlign-N",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/ReAlign-P",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/ReAlign-Star",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/seqpro",
+      "pages": [
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/sufkit",
+      "pages": [
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/TPMA",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/WMSA/",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/malabz/WMSA2/",
+      "pages": [
+        "docs/publications/papers.md",
+        "docs/software/lab.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/marbl/parsnp",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/metaphysicser/klib/tree/main/docs",
+      "pages": [
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/metaphysicser/klib/tree/main/klib",
+      "pages": [
+        "docs/development/libraries.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/metaphysicser/RaMA",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/NCl3-lhd/minipoa",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/rcedgar/balifam",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/rcedgar/qscore",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/refresh-bio/FAMSA",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/refresh-bio/QuickProbs",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/seryrzu/unialigner",
+      "pages": [
+        "docs/software/third-party.md",
+        "docs/software/unialigner.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/suwenhecn/MASC",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/vgteam/vg",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/wangvsa/CMSA",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/yangao07/abPOA",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/ytye/PnpProbs",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://gmgc.embl.de/download.cgi",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/abstract/document/1498013",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "unverified",
+      "code": 418,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/abstract/document/5223562",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 418,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/abstract/document/6621350",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 418,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/abstract/document/6637352",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "unverified",
+      "code": 418,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://informatica.si/index.php/informatica/article/view/2621/0",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 28,
+      "error": "curl: (28) Connection timed out after 5196 milliseconds"
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0088901",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://kim.bio.upenn.edu/software/csd.shtml",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://lastz.github.io/lastz/",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/1471-2105-13-64",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/1471-2105-15-265",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s12918-017-0476-3",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s13059-022-02735-6",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s13059-025-03881-3",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-24855-9_26",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 302,
+      "exit": 28,
+      "error": "curl: (28) Operation timed out after 564 milliseconds with 0 bytes received"
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-981-95-0030-7_38",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1186/s13015-017-0116-x.pdf",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://link.springer.com/protocol/10.1007/978-1-62703-646-7_8",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://mafft.cbrc.jp/alignment/software/",
+      "pages": [
+        "docs/basics/genome.md",
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://msaprobs.sourceforge.net/homepage.htm",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://mugsy.sourceforge.net/",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://mummer4.github.io/",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/AffineGap_Kband_DP.ipynb",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/DivideConquer.ipynb",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "unverified",
+      "code": 0,
+      "exit": 28,
+      "error": "curl: (28) Connection timed out after 6736 milliseconds"
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/DynamicProgramming.ipynb",
+      "pages": [
+        "docs/basics/pairwise.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28646874/",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/analysis_set/chm13v2.0.fa.gz",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://sourceforge.net/projects/glprobs/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://tcoffee.org/Projects/tcoffee/index.html",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://tcoffee.readthedocs.io/en/latest/",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://tcoffee.readthedocs.io/en/latest/tcoffee_installation.html",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genom-120219-080406",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.cnblogs.com/wh-ff-ly520/p/10281711.html",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.drive5.com/evolver/",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.drive5.com/qscore/",
+      "pages": [
+        "docs/basics/metrics.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.ebi.ac.uk/seqdb/confluence/display/JDSAT/Clustal+Omega+Help+and+Documentation",
+      "pages": [
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1722317/full",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.hiv.lanl.gov/content/sequence/HIV/refer.html",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.hiv.lanl.gov/content/sequence/NEWALIGN/align.html",
+      "pages": [
+        "docs/data/datasets.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.ibi.vu.nl/programs/pralinewww/",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.ingentaconnect.com/content/ben/ppl/2020/00000027/00000004/art00007",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.jianshu.com/p/fa057daadfbc",
+      "pages": [
+        "docs/data/simulation.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.liebertpub.com/doi/10.1089/cmb.2017.0040",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.mdpi.com/2218-273X/12/4/546",
+      "pages": [
+        "docs/publications/papers.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41576-020-0210-7",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-020-2871-y",
+      "pages": [
+        "docs/software/cactus.md",
+        "docs/software/third-party.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41587-023-01793-w",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41592-023-01970-4",
+      "pages": [
+        "docs/software/third-party.md",
+        "docs/software/unialigner.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41592-024-02430-3",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/srep33964",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/srep41553",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/assembly/88331",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022283696906798",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/9781860948732_0026",
+      "pages": [
+        "docs/realignment/in-msa.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.worldscientific.com/doi/epdf/10.1142/S0219720022400029",
+      "pages": [
+        "docs/realignment/standalone.md"
+      ],
+      "status": "restricted",
+      "code": 403,
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E8%BE%83%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6",
+      "pages": [
+        "docs/basics/genome.md"
+      ],
+      "status": "reachable",
+      "code": 200,
+      "exit": 0,
+      "error": ""
+    }
+  ]
+}

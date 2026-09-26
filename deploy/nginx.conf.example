@@ -1,0 +1,18 @@
+# Replace domain and absolute deploy root. Node.js is not required on this host.
+server {
+    listen 80;
+    server_name example.org;
+    root /srv/msa-website/current;
+    index index.html;
+    charset utf-8;
+    location / {
+        try_files $uri $uri/ =404;
+        add_header Cache-Control "no-cache";
+    }
+    location /assets/ {
+        try_files $uri =404;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+    location ~ /\. { deny all; }
+    error_page 404 /404.html;
+}
