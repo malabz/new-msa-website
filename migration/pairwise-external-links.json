@@ -1,0 +1,284 @@
+{
+  "checkedAt": "2026-09-26T08:12:39.581Z",
+  "method": "GET; 12s timeout; 404/410 retried once; no external hash validation",
+  "results": [
+    {
+      "url": "https://biopython.org/docs/latest/Tutorial/chapter_pairwise.html#affine-gap-scores",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://biopython.org/docs/latest/Tutorial/chapter_pairwise.html"
+        }
+      ]
+    },
+    {
+      "url": "https://biopython.org/docs/latest/Tutorial/chapter_pairwise.html#substitution-scores",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://biopython.org/docs/latest/Tutorial/chapter_pairwise.html"
+        }
+      ]
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/Guuhua/PicBed@master/imgdllwin10/20201217144946.png",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://raw.githubusercontent.com/Guuhua/PicBed/master/imgdllwin10/20201217144946.png"
+        }
+      ]
+    },
+    {
+      "url": "https://doc.aporc.org/attach/Course001Papers/gribshovetal1987.pdf",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://doc.aporc.org/attach/Course001Papers/gribshovetal1987.pdf"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/0022-2836(81)90087-5",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://linkinghub.elsevier.com/retrieve/pii/0022283681900875"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/0022-2836(82)90398-9",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://linkinghub.elsevier.com/retrieve/pii/0022283682903989"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/bib/bbaf061",
+      "status": "unverified",
+      "attempts": [
+        {
+          "error": "fetch failed"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/FM-index",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/FM-index"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/profileAlignment",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/profileAlignment"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/c/PSA_fmindex.c",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/c/PSA_fmindex.c"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/c/PSA_kband.c",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/c/PSA_kband.c"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/FMAlign.java",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/java/FMAlign.java"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/Kband.java",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/java/Kband.java"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/java/STAlign.java",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/java/STAlign.java"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/python/PSA_Kband.py",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/python/PSA_Kband.py"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/PSA/blob/main/python/PSA_STree.py",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/PSA/blob/main/python/PSA_STree.py"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.java",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.java"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.py",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Guuhua/SuffixTree/blob/main/suffixTree.py"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/lh3/minimap2#algorithm-overview",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/lh3/minimap2"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/malabz/FORAlign",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/malabz/FORAlign"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/malabz/FORAlign?tab=readme-ov-file#for-development",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/malabz/FORAlign?tab=readme-ov-file"
+        }
+      ]
+    },
+    {
+      "url": "https://ics.uci.edu/~dhirschb/pubs/p341-hirschberg.pdf",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://ics.uci.edu/~dhirschb/pubs/p341-hirschberg.pdf"
+        }
+      ]
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s12859-018-2228-9",
+      "status": "unverified",
+      "attempts": [
+        {
+          "error": "The operation was aborted due to timeout"
+        }
+      ]
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/AffineGap_Kband_DP.ipynb",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://nbviewer.org/github/malabz/Jtmsa/blob/master/AffineGap_Kband_DP.ipynb"
+        }
+      ]
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/DivideConquer.ipynb",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://nbviewer.org/github/malabz/Jtmsa/blob/master/DivideConquer.ipynb"
+        }
+      ]
+    },
+    {
+      "url": "https://nbviewer.jupyter.org/github/malabz/Jtmsa/blob/master/DynamicProgramming.ipynb",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://nbviewer.org/github/malabz/Jtmsa/blob/master/DynamicProgramming.ipynb"
+        }
+      ]
+    },
+    {
+      "url": "https://web.stanford.edu/class/sbio228/public/readings/Bioinformatics_I_Lecture6/Needleman_Wunsch_JMB_70_Global_alignment.pdf",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://web.stanford.edu/class/sbio228/public/readings/Bioinformatics_I_Lecture6/Needleman_Wunsch_JMB_70_Global_alignment.pdf"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cs.ucf.edu/courses/cap5510/fall2009/SeqAlign/Linear_Space_Alignment.pdf",
+      "status": "accessible",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.cs.ucf.edu/courses/cap5510/fall2009/SeqAlign/Linear_Space_Alignment.pdf"
+        }
+      ]
+    }
+  ]
+}
