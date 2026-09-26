@@ -4,7 +4,7 @@
 
 - 原仓库：`https://github.com/pinglu-zhang/msawebsite`
 - 原始提交：`ae32d2cab0483c510103636c777ba384a859d0a7`
-- 25 个 jemdoc 页面合并为 17 个主题页面，另加贡献指南，共 18 页。
+- 25 个 jemdoc 页面合并为 17 个网站主题页面。贡献指南在 v1.0.0 中曾作为第 18 页，现迁至仓库根目录 `CONTRIBUTING.md`，不再生成网页。
 - 原仓库保持不变，新项目不包含重复的旧 HTML 或 jemdoc。
 
 ## 内容与去重

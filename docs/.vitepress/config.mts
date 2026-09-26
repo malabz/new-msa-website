@@ -2,10 +2,9 @@ import { defineConfig } from 'vitepress';
 import { fileURLToPath } from 'node:url';
 import { sidebar, tokenize, siteBase } from './content.mjs';
 
-const repository = process.env.SITE_REPOSITORY;
 export default defineConfig({
   lang: 'zh-CN', title: '序列比对知识库',
-  description: '课题组共建的序列比对知识与资源：算法、数据、软件和科研成果。',
+  description: '序列比对知识与资源：算法、数据、软件和科研成果。',
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: siteBase() + 'favicon.svg' }]],
   base: siteBase(), cleanUrls: false, lastUpdated: false,
   markdown: { math: true, lineNumbers: false },
@@ -46,13 +45,12 @@ export default defineConfig({
     sidebarMenuLabel: '文档导航', returnToTopLabel: '返回顶部', darkModeSwitchLabel: '外观',
     docFooter: { prev: '上一篇', next: '下一篇' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/malabz' }],
-    ...(repository ? { editLink: { pattern: `https://github.com/${repository}/edit/main/docs/:path`, text: '在 GitHub 上编辑此页' } } : {}),
     search: { provider: 'local', options: {
       miniSearch: { options: { tokenize }, searchOptions: { combineWith: 'OR', prefix: true, fuzzy: 0.2 } },
       translations: { button: { buttonText: '搜索文档', buttonAriaLabel: '搜索文档' },
         modal: { noResultsText: '没有找到相关内容', resetButtonTitle: '清空',
           footer: { selectText: '选择', navigateText: '切换', closeText: '关闭' } } }
     } },
-    footer: { message: '面向序列比对研究的开放知识与资源', copyright: '由课题组成员共同维护 · MSA Knowledge Base' }
+    footer: { message: 'MSA · 序列比对知识库' }
   }
 });

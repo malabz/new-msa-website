@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import fs from 'node:fs';
+import path from 'node:path';
 import assert from 'node:assert/strict';
 import { getPages } from '../docs/.vitepress/content.mjs';
 
@@ -13,7 +14,9 @@ page.on('pageerror', e => errors.push(e.message));
 page.on('console', m => { if (m.type() === 'error' && !expectedMissing) errors.push(m.text()); });
 page.on('response', r => { if (r.status() >= 400 && !expectedMissing) errors.push(`${r.status()}: ${r.url()}`); });
 const report = { testedAt: new Date().toISOString(), origin, pages: [], searches: [], screenshots: [] };
-fs.mkdirSync('qa-output', { recursive: true });
+const output = process.env.QA_OUTPUT_DIR || 'qa-output';
+const artifact = name => path.join(output, name);
+fs.mkdirSync(output, { recursive: true });
 try {
   for (const p of getPages('docs')) {
     const url = new URL(p.relative.replace(/\.md$/, '.html'), origin);
@@ -24,11 +27,20 @@ try {
     assert.deepEqual(brokenImages, [], p.relative);
     assert.equal(await page.locator('mjx-merror, [data-mjx-error]').count(), 0);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `desktop overflow ${p.relative}`);
+    assert.equal(await page.locator('a[href*="contributing"], .edit-link-button').count(), 0, p.relative);
     report.pages.push(p.relative);
   }
   await page.goto(origin, { waitUntil: 'networkidle' });
-  await page.screenshot({ path: 'qa-output/home-desktop.png', fullPage: true });
-  report.screenshots.push('home-desktop.png');
+  await page.screenshot({ path: artifact('home-desktop.png'), fullPage: true });
+  assert.equal(await page.locator('.VPHomeHero, .VPFeature').count(), 0);
+  assert.equal((await page.locator('.vp-doc h1').innerText()).replace(/\u200b/g, '').trim(), '序列比对知识库');
+  assert.ok(await page.locator('.vp-doc ul a').count() >= 16);
+  const homeWidth = await page.locator('.vp-doc').evaluate(e => e.getBoundingClientRect().width);
+  assert.ok(homeWidth <= 961 && homeWidth >= 900, 'Desktop home should have a 960px reading width');
+  await page.locator('.VPSwitchAppearance').first().click();
+  await page.screenshot({ path: artifact('home-dark.png'), fullPage: true });
+  await page.locator('.VPSwitchAppearance').first().click();
+  report.academicHome = 'passed';
   for (const query of ['基因组比对', '重比对', '模拟数据', 'HAlign', 'MGA-Dataset', 'POA']) {
     await page.locator('.VPNavBarSearch button').click();
     const input = page.locator('#localsearch-input');
@@ -39,23 +51,29 @@ try {
     report.searches.push({ query, results: found.slice(0, 220) });
     await page.keyboard.press('Escape');
   }
+  await page.locator('.VPNavBarSearch button').click();
+  await page.locator('#localsearch-input').fill('贡献指南');
+  await page.locator('.VPLocalSearchBox .results, .VPLocalSearchBox .no-results').first().waitFor();
+  assert.equal(await page.locator('.VPLocalSearchBox a[href*="contributing"]').count(), 0);
+  assert.doesNotMatch(await page.locator('.VPLocalSearchBox').innerText(), /#\s*贡献指南/);
+  await page.keyboard.press('Escape');
   await page.goto(new URL('basics/pairwise.html', origin).href, { waitUntil: 'networkidle' });
   assert.ok(await page.locator('mjx-container').count() > 0);
-  await page.screenshot({ path: 'qa-output/formulas-desktop.png', fullPage: true });
+  await page.screenshot({ path: artifact('formulas-desktop.png'), fullPage: true });
   await page.locator('.VPSwitchAppearance').first().click();
   assert.ok(await page.locator('html').evaluate(e => e.classList.contains('dark')));
-  await page.screenshot({ path: 'qa-output/formulas-dark.png', fullPage: true });
+  await page.screenshot({ path: artifact('formulas-dark.png'), fullPage: true });
   await page.locator('.VPSwitchAppearance').first().click();
   await page.goto(new URL('software/third-party.html', origin).href, { waitUntil: 'networkidle' });
-  await page.locator('.vp-doc table').first().screenshot({ path: 'qa-output/table.png' });
+  await page.locator('.vp-doc table').first().screenshot({ path: artifact('table.png') });
   const code = page.locator('.vp-doc div[class*="language-"]').first();
   await code.scrollIntoViewIfNeeded();
-  await code.screenshot({ path: 'qa-output/code.png' });
+  await code.screenshot({ path: artifact('code.png') });
   await page.context().grantPermissions(['clipboard-read', 'clipboard-write']);
   await code.locator('button.copy').click();
   assert.ok((await page.evaluate(() => navigator.clipboard.readText())).trim().length > 0);
   await page.goto(new URL('basics/genome.html', origin).href, { waitUntil: 'networkidle' });
-  await page.locator('.vp-doc img').first().screenshot({ path: 'qa-output/figure.png' });
+  await page.locator('.vp-doc img').first().screenshot({ path: artifact('figure.png') });
   await page.setViewportSize({ width: 390, height: 844 });
   for (const p of getPages('docs')) {
     await page.goto(new URL(p.relative.replace(/\.md$/, '.html'), origin).href, { waitUntil: 'networkidle' });
@@ -67,9 +85,9 @@ try {
     const nav = document.querySelector('.VPSidebar.open');
     return nav && Math.abs(nav.getBoundingClientRect().left) < 1;
   });
-  await page.screenshot({ path: 'qa-output/mobile-navigation.png' });
+  await page.screenshot({ path: artifact('mobile-navigation.png') });
   await page.goto(origin, { waitUntil: 'networkidle' });
-  await page.screenshot({ path: 'qa-output/home-mobile.png', fullPage: true });
+  await page.screenshot({ path: artifact('home-mobile.png'), fullPage: true });
   await page.locator('.VPNavBarSearch button').click();
   await page.locator('#localsearch-input').fill('MGA-Dataset');
   await page.locator('.VPLocalSearchBox .results li').first().waitFor();
@@ -85,15 +103,18 @@ try {
     await page.goto(new URL(old, origin).href, { waitUntil: 'networkidle' });
     await page.waitForURL(new URL(target, origin).href);
   }
-  report.screenshots = ['home-desktop.png', 'formulas-desktop.png', 'formulas-dark.png', 'mobile-navigation.png', 'home-mobile.png', 'table.png', 'code.png', 'figure.png'];
+  report.screenshots = ['home-desktop.png', 'home-dark.png', 'formulas-desktop.png', 'formulas-dark.png', 'mobile-navigation.png', 'home-mobile.png', 'table.png', 'code.png', 'figure.png'];
   expectedMissing = true;
-  const missing = await page.goto(new URL('not-a-page.html', origin).href);
-  assert.equal(missing.status(), 404);
+  for (const route of ['not-a-page.html', 'development/contributing.html']) {
+    const missing = await page.goto(new URL(route, origin).href);
+    assert.equal(missing.status(), 404, route);
+  }
+  report.contributionPageRemoved = 'passed';
   assert.deepEqual(errors, []);
   report.status = 'passed'; report.redirects = Object.keys(redirects).length;
 } finally {
   report.errors = errors;
-  fs.writeFileSync('qa-output/browser-report.json', JSON.stringify(report, null, 2));
+  fs.writeFileSync(artifact('browser-report.json'), JSON.stringify(report, null, 2));
   await browser.close();
 }
 console.log(JSON.stringify(report, null, 2));

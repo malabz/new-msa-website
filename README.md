@@ -8,7 +8,7 @@
 2. Windows 双击 `preview.cmd`；macOS/Linux/WSL 执行 `bash preview.sh`。
 3. 修改 `docs/` 中的 Markdown，浏览器实时查看变化。
 
-启动器只在首次使用或锁文件变化时执行 `npm ci`。使用 GitHub Codespaces 可在浏览器内完成编辑和预览，见[贡献指南](docs/development/contributing.md)。
+启动器只在首次使用或锁文件变化时执行 `npm ci`。使用 GitHub Codespaces 可在浏览器内完成编辑和预览，见[贡献指南](CONTRIBUTING.md)。
 
 ```bash
 npm ci
@@ -23,9 +23,10 @@ npm run preview   # 浏览构建产物，默认 4173
 
 ## 内容结构
 
-- `docs/`：18 个页面，含首页和贡献指南；六个栏目按目录组织。
+- `docs/`：17 个内容页面（含首页）；六个栏目按目录组织。
 - `docs/public/images/`：9 张旧站示意图的本地副本。
 - `docs/.vitepress/`：主题、自动导航、搜索及部署前缀配置。
+- `CONTRIBUTING.md`：贡献指南，仅保存在仓库，不生成网站页面。
 - `scripts/`：构建、校验、预览、发布和质量检查入口。
 - `deploy/`：服务器定时更新脚本和 Nginx 示例。
 - `migration/`：原稿基线、页面/章节映射、合并记录、图源和核对结果。
@@ -42,7 +43,7 @@ npm run preview   # 浏览构建产物，默认 4173
 
 原站：https://github.com/pinglu-zhang/msawebsite ，基线 `ae32d2cab0483c510103636c777ba384a859d0a7`。
 
-原站 25 页合并为 17 页，加贡献指南共 18 页。原有正文与科研命令按基线迁移，不代表全部软件参数已按最新版本重新验证。待核对条目见 [迁移报告](migration/REPORT.md)。
+原站 25 页合并为 17 个网站内容页面；贡献指南独立存放于仓库根目录。原有正文与科研命令按基线迁移，不代表全部软件参数已按最新版本重新验证。待核对条目见 [迁移报告](migration/REPORT.md)。
 
 源站文档、图片和所引用数据的原有权利归属保留；本迁移未给第三方材料添加新许可证。原始 jemdoc 与 Git 历史在旧仓库留档。
 

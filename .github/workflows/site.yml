@@ -23,7 +23,6 @@ jobs:
       - run: npm run build
         env:
           SITE_BASE: ${{ vars.SITE_BASE || '/' }}
-          SITE_REPOSITORY: ${{ github.repository }}
       - uses: actions/upload-artifact@v4
         with:
           name: msa-static-site
