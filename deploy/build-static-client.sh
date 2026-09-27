@@ -12,14 +12,18 @@ LDFLAGS=-static ./configure --disable-shared --enable-static --with-openssl \
   --disable-threaded-resolver --disable-ldap --disable-ldaps --disable-docs \
   --disable-manual --without-libpsl --without-zstd --without-brotli \
   --without-libidn2 --without-nghttp2 --without-nghttp3 --without-libssh2 --without-zlib
-make -j4
+make -j4 LDFLAGS=-all-static
+if readelf -l src/curl | grep -q INTERP; then
+  echo 'Client is not fully static' >&2
+  exit 1
+fi
 strip src/curl
 cp src/curl /out/curl
 cp /etc/ssl/certs/ca-certificates.crt /out/cacert.pem
 {
   echo "curl source: https://curl.se/download/curl-$version.tar.xz"
   sha256sum "/tmp/curl-$version.tar.xz"
-  apk info -v musl openssl-libs-static
+  apk list --installed musl openssl-libs-static
   /out/curl --version
 } > /out/BUILD.txt
 cd /out

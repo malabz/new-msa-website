@@ -82,7 +82,7 @@ class Updater(object):
         print(line.rstrip())
 
     def download(self, url, target):
-        subprocess.check_call([self.curl, '--fail', '--silent', '--show-error',
+        subprocess.check_call([self.curl, '--disable', '--fail', '--silent', '--show-error',
             '--location', '--proto', '=https', '--proto-redir', '=https',
             '--tlsv1.2', '--cacert', self.ca, '--connect-timeout', '10',
             '--max-time', '60', '--retry', '1', '--retry-delay', '3',
@@ -245,7 +245,7 @@ RewriteRule ^(.*)$ _releases/%s/$1 [L]
         for route, expected in (('', 200), ('basics/pairwise.html', 200),
                                 ('release.json', 200), ('msa-health-missing-' + nonce + '.html', 404)):
             target = os.path.join(self.work, 'health-body')
-            status = subprocess.check_output([self.curl, '--silent', '--show-error',
+            status = subprocess.check_output([self.curl, '--disable', '--silent', '--show-error',
                 '--noproxy', '*', '--connect-timeout', '5', '--max-time', '15',
                 '--header', 'Host: lab.malab.cn', '--header', 'Cache-Control: no-cache',
                 '--output', target, '--write-out', '%{http_code}',
