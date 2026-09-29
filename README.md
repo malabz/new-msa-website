@@ -2,20 +2,22 @@
 
 用 Markdown 共同维护序列比对领域的算法介绍、软件指南、数据资源和课题组论文。
 
-[访问网站](http://lab.malab.cn/MSA/) · [GitHub 仓库](https://github.com/malabz/new-msa-website) · [完整贡献指南](CONTRIBUTING.md)
+网站地址：[http://lab.malab.cn/MSA/](http://lab.malab.cn/MSA/)
 
-## 第一次贡献，从这里开始
+项目仓库：[malabz/new-msa-website](https://github.com/malabz/new-msa-website)
 
-改一个错字、补一条引用或完善一段软件说明，都可以成为第一次贡献。你只需要一个 GitHub 账号；没有仓库写权限也可以通过 Fork 和 Pull Request（PR，修改申请）参与。
+## 内容维护
+
+课题组成员通过修改 Markdown、提交 Pull Request（PR）更新网站。没有仓库写权限时，先 Fork 到个人账号，再提交 PR。
 
 1. 在下面的目录中找到要修改的 Markdown 文件。
 2. 在 GitHub 文件页点击铅笔图标，修改并预览正文。
 3. 将改动提交到新分支，向 **`malabz/new-msa-website` 的 `main` 分支**创建 PR。
 4. 等待自动检查和维护者审阅；合并后网站自动更新。
 
-不熟悉这些操作？跟着[网页修改教程](CONTRIBUTING.md#第一次贡献直接在-github-修改)完成一次即可。需要完整网站预览时，可以使用[Codespaces 或本地预览](CONTRIBUTING.md#需要完整网站预览时)。
+具体步骤见[网页修改说明](CONTRIBUTING.md#第一次贡献直接在-github-修改)；完整网站预览见[Codespaces 与本地预览说明](CONTRIBUTING.md#需要完整网站预览时)。
 
-## 内容放在哪里
+## 内容目录
 
 | 栏目 | 文档目录 | 适合贡献的内容 |
 | --- | --- | --- |
@@ -43,6 +45,6 @@ npm run dev
 
 建议一项主题使用一个分支、一个 PR。`main` 保存源码；合并后 GitHub Actions 自动检查并编译，通过后更新 `site` 发布分支，服务器每 5 分钟检查新版本。生成网页不放入源码分支，上线需要等待构建完成及下一次服务器检查。
 
-- **贡献文章：**阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，从编辑、预览到 PR 都有完整步骤。
-- **报告问题或提出建议：**前往 [Issues](https://github.com/malabz/new-msa-website/issues)。
-- **维护部署：**阅读 [DEPLOYMENT.md](DEPLOYMENT.md)。普通文档贡献无需操作服务器或修改生成的 HTML。
+- **贡献指南**：[CONTRIBUTING.md](CONTRIBUTING.md)，包含编辑、预览和 PR 流程。
+- **问题反馈**：[Issues](https://github.com/malabz/new-msa-website/issues)。
+- **部署说明**：[DEPLOYMENT.md](DEPLOYMENT.md)。文档维护无需操作服务器或修改生成的 HTML。
