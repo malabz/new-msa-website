@@ -33,7 +33,11 @@ try {
   await page.goto(origin, { waitUntil: 'networkidle' });
   await page.screenshot({ path: artifact('home-desktop.png'), fullPage: true });
   assert.equal(await page.locator('.VPHomeHero, .VPFeature').count(), 0);
-  assert.equal((await page.locator('.vp-doc h1').innerText()).replace(/\u200b/g, '').trim(), '序列比对知识库');
+  assert.equal((await page.locator('.vp-doc h1').innerText()).replace(/\u200b/g, '').trim(), 'MSA');
+  assert.equal(await page.title(), 'MSA');
+  assert.equal((await page.locator('.VPNavBarTitle').innerText()).trim(), 'MSA');
+  const github = page.locator('.VPNavBarSocialLinks a[aria-label="github"]');
+  assert.equal(await github.getAttribute('href'), 'https://github.com/malabz/new-msa-website');
   assert.ok(await page.locator('.vp-doc ul a').count() >= 16);
   const homeWidth = await page.locator('.vp-doc').evaluate(e => e.getBoundingClientRect().width);
   assert.ok(homeWidth <= 961 && homeWidth >= 900, 'Desktop home should have a 960px reading width');
@@ -58,6 +62,7 @@ try {
   assert.doesNotMatch(await page.locator('.VPLocalSearchBox').innerText(), /#\s*贡献指南/);
   await page.keyboard.press('Escape');
   await page.goto(new URL('basics/pairwise.html', origin).href, { waitUntil: 'networkidle' });
+  assert.match(await page.title(), / \| MSA$/);
   assert.ok(await page.locator('mjx-container').count() > 0);
   await page.screenshot({ path: artifact('formulas-desktop.png'), fullPage: true });
   await page.locator('.VPSwitchAppearance').first().click();

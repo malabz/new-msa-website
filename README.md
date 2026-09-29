@@ -1,64 +1,48 @@
-# MSA · 序列比对知识库
+# MSA
 
-以 Markdown 共同维护课题组的算法、软件、数据和论文知识。VitePress 1.6.4 生成静态网站，构建环境统一为 Node.js 24。
+用 Markdown 共同维护序列比对领域的算法介绍、软件指南、数据资源和课题组论文。
 
-## 从这里开始
+[访问网站](http://lab.malab.cn/MSA/) · [GitHub 仓库](https://github.com/malabz/new-msa-website) · [完整贡献指南](CONTRIBUTING.md)
 
-1. 安装 [Node.js 24](https://nodejs.org/)。
-2. Windows 双击 `preview.cmd`；macOS/Linux/WSL 执行 `bash preview.sh`。
-3. 修改 `docs/` 中的 Markdown，浏览器实时查看变化。
+## 第一次贡献，从这里开始
 
-启动器只在首次使用或锁文件变化时执行 `npm ci`。使用 GitHub Codespaces 可在浏览器内完成编辑和预览，见[贡献指南](CONTRIBUTING.md)。
+改一个错字、补一条引用或完善一段软件说明，都可以成为第一次贡献。你只需要一个 GitHub 账号；没有仓库写权限也可以通过 Fork 和 Pull Request（PR，修改申请）参与。
+
+1. 在下面的目录中找到要修改的 Markdown 文件。
+2. 在 GitHub 文件页点击铅笔图标，修改并预览正文。
+3. 将改动提交到新分支，向 **`malabz/new-msa-website` 的 `main` 分支**创建 PR。
+4. 等待自动检查和维护者审阅；合并后网站自动更新。
+
+不熟悉这些操作？跟着[网页修改教程](CONTRIBUTING.md#第一次贡献直接在-github-修改)完成一次即可。需要完整网站预览时，可以使用[Codespaces 或本地预览](CONTRIBUTING.md#需要完整网站预览时)。
+
+## 内容放在哪里
+
+| 栏目 | 文档目录 | 适合贡献的内容 |
+| --- | --- | --- |
+| 比对基础 | [docs/basics/](docs/basics/) | 双序列、多序列、基因组比对与评价指标 |
+| 重比对 | [docs/realignment/](docs/realignment/) | 重比对思路、独立工具与 MSA 中的迭代改进 |
+| 数据与评测 | [docs/data/](docs/data/) | 数据集入口、模拟数据与使用说明 |
+| 软件指南 | [docs/software/](docs/software/) | 课题组软件、第三方工具与安装经验 |
+| 开发工具 | [docs/development/](docs/development/) | 数据处理脚本与开发库 |
+| 论文成果 | [docs/publications/](docs/publications/) | 论文信息、研究方向与相关软件 |
+
+图片统一放在 `docs/public/images/`。在已有栏目新增 `.md` 文件后，导航会自动更新；文章模板、图片、公式和代码示例见[新增文章与常用 Markdown](CONTRIBUTING.md#新增文章与常用-markdown)。
+
+## 本地快速预览
+
+安装 **Node.js 24** 并克隆仓库后，Windows 双击 `preview.cmd`，macOS/Linux/WSL 执行 `bash preview.sh`。启动器会准备依赖并显示预览地址，保存 Markdown 后页面自动更新。
+
+熟悉命令行也可以执行：
 
 ```bash
 npm ci
-npm run dev       # 实时预览，默认 5173
-npm run check     # 文档约定检查
-npm test          # 导航、搜索分词和隔离部署测试
-npm run build     # 构建 + 全站本地链接/资源/公式检查
-npm run preview   # 浏览构建产物，默认 4173
+npm run dev
 ```
 
-生成网页位于 `docs/.vitepress/dist/`，通过本地 HTTP 预览；直接双击 HTML 不能完整验证搜索等交互。
+## 协作与上线
 
-## 内容结构
+建议一项主题使用一个分支、一个 PR。`main` 保存源码；合并后 GitHub Actions 自动检查并编译，通过后更新 `site` 发布分支，服务器每 5 分钟检查新版本。生成网页不放入源码分支，上线需要等待构建完成及下一次服务器检查。
 
-- `docs/`：17 个内容页面（含首页）；六个栏目按目录组织。
-- `docs/public/images/`：5 张可重新生成的 SVG 教学示意图，以及保留的 2 张 POA 原图和 2 张基因组比对 PNG。
-- `docs/.vitepress/`：主题、自动导航、搜索及部署前缀配置。
-- `CONTRIBUTING.md`：贡献指南，仅保存在仓库，不生成网站页面。
-- `scripts/`：构建、校验、预览、发布和质量检查入口。
-- `deploy/`：服务器定时更新脚本和 Nginx 示例。
-- `migration/`：原稿基线、页面/章节映射、合并记录、图源和核对结果。
-
-普通成员新增文章只需在已有栏目放入 `.md` 文件。标题默认从一级标题读取，页头 `title` 和 `order` 可选；无需手工登记导航。文件名用英文小写及连字符。
-
-## 协作与发布
-
-`main` 保存源码，PR 自动检查。合并后 GitHub Actions 编译，检查通过再以连续提交更新 `site` 分支；服务器拉取 `site` 并切换完整版本。生成 HTML 不放入源码分支。
-
-新仓库尚未绑定所有者。正式地址确定后设置仓库变量 `SITE_BASE`，例如 `/` 或 `/~cjt/MSA/`；服务器设置见 [DEPLOYMENT.md](DEPLOYMENT.md)。
-
-## 迁移与使用边界
-
-原站：https://github.com/pinglu-zhang/msawebsite ，基线 `ae32d2cab0483c510103636c777ba384a859d0a7`。
-
-原站 25 页合并为 17 个网站内容页面；贡献指南独立存放于仓库根目录。原有正文与科研命令按基线迁移，不代表全部软件参数已按最新版本重新验证。待核对条目见 [迁移报告](migration/REPORT.md)。
-
-源站文档、图片和所引用数据的原有权利归属保留；本迁移未给第三方材料添加新许可证。原始 jemdoc 与 Git 历史在旧仓库留档。
-
-## 维护者质量检查
-
-`npm run qa` 对已运行的 `npm run preview` 执行浏览器检查；需要先安装测试浏览器 `npx playwright install chromium`。普通文档贡献者不需要安装测试浏览器。可用 `QA_URL` 指定子路径预览地址，用 `QA_CHROME` 指定已有 Chromium 可执行文件。
-
-`node scripts/audit-external.mjs` 仅检查文档外链可访问性，不下载基因组数据；结果保存在 `migration/external-links.json`。`collect-assets.mjs` 是一次性迁移辅助工具，日常写作不运行它。
-
-双序列与多序列配图的示例数据和样式集中在 `scripts/generate-figures.mjs`，修改后运行 `npm run figures`，同时更新相邻正文和图注。`npm run check` 和构建会检查 SVG 是否与生成器一致；`npm test` 独立核对教学算例。预览启动后可运行 `node scripts/figure-qa.mjs` 检查 5 张 SVG 和 2 张 POA 原图的桌面、手机和明暗主题显示（同样支持 `QA_URL`、`QA_CHROME`）。来源与旧图去向见 [配图修订记录](migration/FIGURES-REVISION.md)。
-
-## 依赖安全约定
-
-VitePress 按方案固定为 1.6.4。其旧版间接依赖通过 `overrides` 固定为 Vite 6.4.3、esbuild 0.25.12 和 @xmldom/xmldom 0.9.12，以修复已知公告；这些覆盖版本需要随站点一起进行构建、预览和浏览器回归，不能盲目删除。2026-09-26 的 `npm audit` 检查为 0 个已知漏洞，不代表永久安全。
-
-本机开发与预览默认仅监听 127.0.0.1；Codespaces 端口保持私有。生产服务器仅部署构建出的静态文件，不运行开发服务。
-
-安全公告：[Vite Windows 路径绕过](https://github.com/advisories/GHSA-fx2h-pf6j-xcff)、[esbuild 开发服务跨源读取](https://github.com/advisories/GHSA-67mh-4wv8-2f99)、[xmldom 内存消耗](https://github.com/advisories/GHSA-965w-775f-mr7g)。
+- **贡献文章：**阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，从编辑、预览到 PR 都有完整步骤。
+- **报告问题或提出建议：**前往 [Issues](https://github.com/malabz/new-msa-website/issues)。
+- **维护部署：**阅读 [DEPLOYMENT.md](DEPLOYMENT.md)。普通文档贡献无需操作服务器或修改生成的 HTML。
