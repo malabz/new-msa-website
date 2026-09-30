@@ -21,8 +21,10 @@ $$
 
 ### 参考内容
 
+课题组工具 [spscore](https://github.com/malabz/spscore) 可计算已完成核酸多序列比对的 SP 得分，支持 FASTA 和 gzip 输入。安装、评分约定和输出说明见[课题组软件中的 spscore 小节](../software/lab.md#spscore)。
+
 1. Altschul, Stephen F. "Gap costs for multiple sequence alignment." Journal of theoretical biology 138.3 (1989): 297-309.
-1. [SP源代码](https://github.com/malabz/MSATOOLS/tree/main/SPscore)
+1. [SP 教学实现](https://github.com/malabz/MSATOOLS/tree/main/SPscore)
 
 ## Q score
 

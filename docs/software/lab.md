@@ -143,3 +143,48 @@ $ java -jar WMSA2.jar -m Win -s 0.95 -i test.fasta -o test_algined_WMSA2.fasta -
 - 对于**序列相似度较高**的比对任务，推荐优先使用HAlign系列工具，以获得更高的效率与稳定性。
 - 对于**超长序列**的多序列比对任务，推荐优先使用FMAlign2，其在处理长序列时具有更好的性能表现。
 - 当**序列相似度低于80%**时，推荐使用WMSA2，以提高比对结果的准确性。
+
+## spscore：SP 分数计算 {#spscore}
+
+[软件仓库与安装说明](https://github.com/malabz/spscore)
+
+spscore 用于计算已有多序列比对的 Sum-of-Pairs（SP）得分，不执行序列比对。输入为至少两条等长、非空的核酸序列，支持 FASTA 和 gzip 压缩文件；指标定义见[评价指标](../basics/metrics.md#sp-score)。
+
+### 安装与运行
+
+以下为仓库提供的 Conda 安装方式：
+
+```bash
+conda install -c malab spscore
+
+# 使用默认评分；alignment.fasta 为已完成比对的文件
+spscore -i alignment.fasta
+
+# 读取压缩文件，指定评分并将结果保存到文件
+spscore -i alignment.fasta.gz --match 1 --mismatch -1 --gap1 -2 --gap2 0 > scores.txt
+```
+
+### 评分参数
+
+| 参数 | 含义 | 默认值 |
+| --- | --- | --- |
+| `--match` | 相同的 A/C/G/T 碱基配对 | `1` |
+| `--mismatch` | 不同的 A/C/G/T 碱基配对 | `-1` |
+| `--gap1` | 空位 `-` 与碱基或 `N` 配对 | `-2` |
+| `--gap2` | 空位–空位、`N–N`、`N` 与 A/C/G/T 配对 | `0` |
+
+字符不区分大小写，`U` 按 `T` 处理，其他非标准字符归入 `N`。这里使用逐列评分，不采用仿射空位罚分；不适用于通用蛋白质替换矩阵评分。
+
+### 输出与实现说明
+
+设序列数为 $M$，比对列数为 $L$，序列对数为 $P=M(M-1)/2$：
+
+| 输出项 | 含义 |
+| --- | --- |
+| `SP score` | 所有列、所有序列对的总得分 |
+| `Avg SP` | 总得分除以 $P$，即每对序列的平均得分 |
+| `Scaled SP` | 总得分除以 $PL$，即每对序列、每列的平均得分 |
+
+程序流式读取序列并累计逐列字符计数，避免显式枚举所有序列对；时间复杂度为 $O(ML)$，内存占用为 $O(L)$。实现与字符处理约定见[源码](https://github.com/malabz/spscore/blob/master/src/spscore.cpp)。
+
+比较得分时应保持评分参数和字符处理约定一致。`Scaled SP` 是长度归一化的评分，不是相对参考比对的准确率，也不保证处于 0 到 1 之间。
