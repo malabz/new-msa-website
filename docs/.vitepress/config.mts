@@ -6,7 +6,7 @@ import { homeDirectory, renderSearchContent } from './home-directory.mjs';
 export default defineConfig({
   lang: 'zh-CN', title: 'MSA',
   description: '序列比对知识与资源：算法、数据、软件和科研成果。',
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: siteBase() + 'favicon.svg' }]],
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: siteBase() + 'alignment-mark.svg' }]],
   base: siteBase(), cleanUrls: false, lastUpdated: false,
   markdown: { math: true, lineNumbers: false, config: md => md.use(homeDirectory) },
   vite: {
@@ -35,7 +35,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: 'MSA',
-    logo: { src: '/favicon.svg', alt: '' },
+    logo: { src: '/alignment-mark.svg', alt: '' },
     aside: false,
     nav: [
       { text: '算法', link: '/basics/pairwise.html', activeMatch: '/(basics|realignment)/' },

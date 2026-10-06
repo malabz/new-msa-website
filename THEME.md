@@ -11,6 +11,8 @@
 
 ## 主题结构
 
+页眉和浏览器标签页共用 `docs/public/alignment-mark.svg`，复用 EasyMSA 的原始图标（来源：`D:/code/easymsa/public/brand/easymsa-mark.svg`）。图形为蓝绿色的三行比对方块；页眉显示尺寸为 36px。更新文件名可以避免浏览器继续使用此前缓存的图标。
+
 主题位于 `docs/.vitepress/theme/`：
 
 - `ReadingLayout.vue` 扩展 VitePress 默认布局，用插槽放入合并导航和自动面包屑；页眉仅显示 MSA 标识，不附加站点说明。
