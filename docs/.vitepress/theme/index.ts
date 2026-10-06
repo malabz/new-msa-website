@@ -1,3 +1,4 @@
 import DefaultTheme from 'vitepress/theme';
+import ReadingLayout from './ReadingLayout.vue';
 import './style.css';
-export default DefaultTheme;
+export default { extends: DefaultTheme, Layout: ReadingLayout };

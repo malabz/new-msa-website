@@ -18,10 +18,17 @@ try {
     await new Promise(r=>setTimeout(r,500));
   }
   assert.ok(ready,'New Markdown route must appear without restarting manually');
-  await page.locator('.VPSidebar a').filter({hasText:'自动导航验收文章'}).waitFor();
+  await page.locator('.reading-navigation a').filter({hasText:'自动导航验收文章'}).waitFor();
   fs.appendFileSync(file,'\n实时更新验收成功。\n');
   await page.getByText('实时更新验收成功。',{exact:true}).waitFor();
-  console.log('新增 Markdown 导航、路由和正文热更新：通过。');
+  fs.writeFileSync(file,'---\ntitle: 自动排序验收\norder: 0\n---\n# 自动排序验收\n\nMSAReadingRefreshProbe\n');
+  await page.locator('.vp-doc h1').filter({hasText:'自动排序验收'}).waitFor();
+  await page.waitForFunction(() => document.querySelector('.reading-group a')?.textContent === '自动排序验收');
+  await page.locator('.VPNavBarSearch button').click();
+  await page.locator('#localsearch-input').fill('MSAReadingRefreshProbe');
+  await page.locator('.VPLocalSearchBox a[href*="qa-temporary-article"]').first().waitFor();
+  await page.keyboard.press('Escape');
+  console.log('新增 Markdown 导航、路由、标题排序、正文与搜索热更新：通过。');
 } finally {
   fs.rmSync(file,{force:true});
   await browser.close();

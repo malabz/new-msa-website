@@ -48,3 +48,4 @@ npm run dev
 - **贡献指南**：[CONTRIBUTING.md](CONTRIBUTING.md)，包含编辑、预览和 PR 流程。
 - **问题反馈**：[Issues](https://github.com/malabz/new-msa-website/issues)。
 - **部署说明**：[DEPLOYMENT.md](DEPLOYMENT.md)。文档维护无需操作服务器或修改生成的 HTML。
+- **主题维护**：[THEME.md](THEME.md)，供维护者调整阅读界面；普通内容贡献无需修改主题。

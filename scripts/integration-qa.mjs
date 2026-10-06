@@ -10,7 +10,7 @@ try {
   for (const name of ['docs','scripts','migration','package.json']) {
     fs.cpSync(path.join(repo,name),path.join(temp,name),{recursive:true, filter: p => !p.includes(`${path.sep}.vitepress${path.sep}dist`) && !p.includes(`${path.sep}.vitepress${path.sep}cache`)});
   }
-  fs.symlinkSync(path.join(repo,'node_modules'),path.join(temp,'node_modules'),'dir');
+  fs.symlinkSync(path.join(repo,'node_modules'),path.join(temp,'node_modules'),process.platform === 'win32' ? 'junction' : 'dir');
   const article=path.join(temp,'docs/basics/new-contribution.md');
   fs.writeFileSync(article,'# 新增协作文章\n\n新增中文检索验收词。\n');
   const build=()=>spawnSync(process.execPath,['scripts/build.mjs'],{cwd:temp,encoding:'utf8',env:{...process.env,SITE_BASE:'/'},maxBuffer:8*1024*1024});
