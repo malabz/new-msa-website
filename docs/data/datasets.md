@@ -151,7 +151,7 @@ order: 9
 ### West Nile数据集
 
 - West Nile病毒数据集包含西尼罗病毒基因组序列和参考序列，属于正链单股RNA黄病毒，常用于虫媒病毒分类或进化分析，完整基因组长度约11.0kb，该数据集未经过去重和筛选。
-- Download: [measles.7z](http://lab.malab.cn/soft/msa_test_data/virus/measles.7z)
+- Download: [west_nile.7z](http://lab.malab.cn/soft/msa_test_data/virus/west_nile.7z)
 
 ### Zika数据集
 
